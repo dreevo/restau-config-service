@@ -19,3 +19,8 @@ spring:
           timeout: 5
           clone-on-start: true
           force-pull: true
+  lifecycle:
+    timeout-per-shutdown-phase: 15s
+
+
+
